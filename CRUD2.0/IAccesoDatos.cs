@@ -8,7 +8,7 @@ namespace CRUD2._0
     {
         bool create(Persona persona);
         List<Persona> read();
-        bool update(Persona persona);
+        bool update(Persona persona, int posicionPersona);
         bool delete(string documentoIdentidad);
     }
 }

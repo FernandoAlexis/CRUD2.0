@@ -35,10 +35,13 @@ namespace CRUD2._0
                             negocio.insertar();
                             break;
                         case 2:
+                            negocio.listar();
                             break;
                         case 3:
+                            negocio.editar();
                             break;
                         case 4:
+                            negocio.eliminar();
                             break;
                         case 5:
                             break;
@@ -46,11 +49,6 @@ namespace CRUD2._0
                         default:
                             Console.WriteLine("La opcion seleccionada es invalida");
                             break;
-
-
-
-
-
 
                     }
 
